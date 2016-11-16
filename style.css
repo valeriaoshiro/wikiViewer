@@ -1,0 +1,123 @@
+/* designed inpired by javascriptissexy.com */
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #031d1e;
+	padding: 1%;
+	padding-top: 3%;
+}
+h1 {
+	color: #46d8d8;
+	text-align: center;
+	font-size: 2.2em;
+}
+#outer {
+	border: 5px solid #46d8d8;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-top: 3%;
+	padding: 4% 2% 4% 2%;
+	text-align: center;
+	background-color: white;
+}
+#random {
+	display: inline-block;
+	color: #46d8d8;
+	margin-bottom: 4%;
+	font-size: 1.3em;
+}
+#random:hover {
+	color: #f26c4f;
+}
+form {
+	text-align: center;
+}
+.form-inline .form-group .form-control {
+	width: auto;
+	display: inline-block;
+	border-radius: 0;
+}
+#inputText {
+	-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+	border: 1px solid #f26c4f;
+	outline: none;
+	padding: 1% 3% 1% 3%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom: 4%;
+}
+#inputText:focus {
+	box-shadow: 0 0 5px rgba(242,108,79, 1);
+  border: 2px solid rgba(242,108,79, 1);
+}
+#inputSubmit {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: none;
+	padding: 1% 3% 1% 3%;
+	background-color: #f26c4f;
+	color: white;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom: 4%;
+	cursor: pointer; 
+	outline: none;
+}
+.option {
+	text-align: left;
+	padding: 1%;
+}
+.option a {
+	color: #46d8d8;
+	font-size: 1.3em;
+}
+.option a:hover {
+	color: #f26c4f;
+	
+}
+.ui-autocomplete {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: #f26c4f !important;
+}
+#name {
+	color: #46d8d8;
+	text-align: center;
+	margin-top: 2%;
+}
+/* .ui-menu-item .ui-menu-item-wrapper:hover
+{
+    border: none !important;
+    background: #f26c4f !important;
+} */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
+@media (min-width: 600px) { /*for tablets*/
+	body {
+		padding: 2% 25% 2% 25%;
+	}
+}
+@media (min-width: 992px) {  /*for desktops*/
+	body {
+		padding: 2% 25% 2% 25%;
+	}
+	#outer {
+		padding: 2% 4% 2% 4%;
+	}
+}
